@@ -19,7 +19,7 @@ a{
   position: fixed;
   background-color: rgba(0,0,0, 0.2);
 }
-.header__main-menu-container{
+.menu-container{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@ a{
   font-family: 'Damion', cursive;
   line-height: 1.2;
 }
-.header__menu-button{
+.menu-button{
   font-size: 30px;
   color: white;
 }
@@ -45,7 +45,7 @@ a{
   padding: 15px 20px;
   text-align: right;
 }
-.navigation-menu__hide{
+.main-screen__navigation-menu-hide{
   display: none;
 }
 .navigation-menu__close-button{
@@ -88,29 +88,29 @@ a{
 .main-headline__attention-item{
   font-size: 83px;
 }
-.services-screen{
+.screen-container{
   background-image: url("../img/services-screen__background.jpg");
-  padding: 40px 0;
+  padding: 40px 0
 }
-.services-screen__about-text-container{
+.screen-container__about-text-container{
   padding: 0 10px 40px;
 }
-.services-screen__headline{
+.screen-container__headline{
   text-transform: uppercase;
   text-align: center;
   line-height: 0.97;
   color: white;
   font-size: 40px;
 }
-.services-screen__main-info{
+.screen-container__main-info{
   color: white;
   text-transform: uppercase;
   margin-top: 40px;
 }
-.services-screen__main-info_accent{
+.screen-container__main-info_accent{
   color: rgba(256, 256, 256, 0.5);
 }
-.services-screen__info{
+.screen-container__info{
   color:white;
   margin-top: 40px;
   font-size: 13px;
@@ -163,4 +163,15 @@ a{
 .cards-container__info{
   color: white;
   margin-top: 30px;
+}
+.screen-container__our-works{
+  background-image: url("../img/our-works-background.jpg");
+}
+.screen-container__menu-headline{
+  text-transform: uppercase;
+  color: white;
+  font-size: 26px;
+}
+.our-work-screen__navigation-menu-hide{
+  display: none;
 }

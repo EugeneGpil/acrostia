@@ -14,14 +14,14 @@
   <div class="wrapper">
     <section class="main-screen">
       <header class="header">
-        <div class="header__main-menu-container">
+        <div class="menu-container">
           <a href="index.html" class="header__logo">acrostia</a>
           <!--for mobiles only-->
-          <a id="header__menu-button" href="#" class="header__menu-button">
+          <a id="header__menu-button" href="#" class="menu-button">
             <i class="fas fa-bars"></i>
           </a>
-          <nav id="navigation-menu" class="navigation-menu navigation-menu__hide">
-            <a id="navigation-menu__close-button" class="navigation-menu__close-button" href="#">
+          <nav id="main-screen__navigation-menu" class="navigation-menu main-screen__navigation-menu-hide">
+            <a id="main-screen__navigation-menu-close-button" class="navigation-menu__close-button" href="#">
               <i class="fas fa-times-circle"></i>
             </a>
             <ul>
@@ -47,11 +47,11 @@
         </div>
       </div>
     </section>
-    <section class="services-screen">
-      <div class="services-screen__about-text-container">
-        <h2 class="services-screen__headline">our services</h2>
-        <p class="services-screen__main-info">Lorem ipsum <span class="services-screen__main-info_accent">dolor</span> sit amet consectetur, adipisicing elit. Eius optio a aliquid labore minima. Odit eveniet</p>
-        <p class="services-screen__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, in. Blanditiis perspiciatis et aliquam magni fugiat consequuntur quidem voluptates minima ipsa, ad at ullam unde tempora ex laborum hic iusto.</p>
+    <section class="screen-container">
+      <div class="screen-container__about-text-container">
+        <h2 class="screen-container__headline">our services</h2>
+        <p class="screen-container__main-info">Lorem ipsum <span class="screen-container__main-info_accent">dolor</span> sit amet consectetur, adipisicing elit. Eius optio a aliquid labore minima. Odit eveniet</p>
+        <p class="screen-container__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, in. Blanditiis perspiciatis et aliquam magni fugiat consequuntur quidem voluptates minima ipsa, ad at ullam unde tempora ex laborum hic iusto.</p>
       </div>
       <div class="cards-container">
         <div class="cards-container__card">
@@ -90,6 +90,32 @@
           <div class="cards-container__card-headline">launch</div>
           <p class="cards-container__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut perferendis </p>
         </div>
+    </section>
+    <section class="screen-container screen-container__our-works">
+      <div class="screen-container__about-text-container">
+        <h2 class="screen-container__headline">our work</h2>
+        <p class="screen-container__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, in. Blanditiis perspiciatis et aliquam magni fugiat consequuntur quidem voluptates minima ipsa, ad at ullam unde tempora ex laborum hic iusto.</p>
+      </div>
+      <div id="our-work-screen__menu-container" class="screen-container__menu-container">
+        <div class="menu-container">
+          <div class="screen-container__menu-headline">portfolio</div>
+          <!--for mobiles only-->
+          <a id="our-work-screen__menu-button" href="#our-work-screen__menu-container" class="menu-button">
+            <i class="fas fa-bars"></i>
+          </a>
+          <nav id="our-work-screen__navigation-menu" class="navigation-menu our-work-screen__navigation-menu-hide">
+            <a id="our-work-screen__close-button" href="#our-work-screen__menu-container" class="navigation-menu__close-button" href="#">
+              <i class="fas fa-times-circle"></i>
+            </a>
+            <ul>
+              <li class="navigation-menu__item" ><a class="navigation-menu__text" href="#">All</a></li>
+              <li class="navigation-menu__item" ><a class="navigation-menu__text" href="#">Photography</a></li>
+              <li class="navigation-menu__item" ><a class="navigation-menu__text" href="#">Logo design</a></li>
+              <li class="navigation-menu__item" ><a class="navigation-menu__text" href="#">web design</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </section>
   </div>
   <script src="js/jquery.js"></script>
